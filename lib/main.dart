@@ -24,6 +24,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: appBar,
+      bottomNavigationBar: bottomAppBar,
       body: SingleChildScrollView(
           child: Column(
         children: [],

@@ -24,3 +24,29 @@ AppBar appBar = AppBar(
     ),
   ],
 );
+
+BottomAppBar bottomAppBar = BottomAppBar(
+  color: Colors.black,
+  child: Container(
+    color: Colors.black,
+    height: 55,
+    child: Row(
+      crossAxisAlignment: CrossAxisAlignment.center,
+      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+      children: [
+        Column(
+          children: [
+            Icon(
+              Icons.home_filled,
+              color: Colors.white,
+            ),
+            Text(
+              'Home',
+              style: TextStyle(color: Colors.white),
+            )
+          ],
+        )
+      ],
+    ),
+  ),
+);
