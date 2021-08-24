@@ -80,6 +80,11 @@ class _HomePageState extends State<HomePage> {
         children: [
           showVideo(
               'images/thumb0.jpg', '10:40', 'Fortnite New Season 9 is cool.'),
+          showVideo('images/thumb1.jpg', '03:01:43',
+              'Design Cool Thumbnail For Your Youtube Video.'),
+          showVideo('images/thumb2.jpg', '10:40', 'Daily 10 mins Yoga Tips.'),
+          showVideo(
+              'images/thumb3.jpg', '40:40', 'Photoshop Tutorial in 40 mins.'),
         ],
       )),
     );
