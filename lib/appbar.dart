@@ -45,7 +45,52 @@ BottomAppBar bottomAppBar = BottomAppBar(
               style: TextStyle(color: Colors.white),
             )
           ],
-        )
+        ),
+        Column(
+          children: [
+            Icon(
+              Icons.explore_outlined,
+              color: Colors.white,
+            ),
+            Text(
+              'Explore',
+              style: TextStyle(color: Colors.white),
+            )
+          ],
+        ),
+        Column(
+          children: [
+            Icon(
+              Icons.add_circle_outline,
+              color: Colors.white,
+              size: 35,
+            ),
+          ],
+        ),
+        Column(
+          children: [
+            Icon(
+              Icons.subscriptions,
+              color: Colors.white,
+            ),
+            Text(
+              'Subscribtions',
+              style: TextStyle(color: Colors.white),
+            )
+          ],
+        ),
+        Column(
+          children: [
+            Icon(
+              Icons.video_library_outlined,
+              color: Colors.white,
+            ),
+            Text(
+              'Library',
+              style: TextStyle(color: Colors.white),
+            )
+          ],
+        ),
       ],
     ),
   ),
